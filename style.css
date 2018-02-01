@@ -1,0 +1,136 @@
+/* Начало----------Стиль основного содержимого страниц */
+.zagolovok {
+    padding-left: 30px;           /* Отступ слева для всего контента, ниже аналогично */
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+/* End----------Стиль основного содержимого страниц */
+
+/* Начало ======== Элементы украшения: цветные блоки ===============  */
+
+     /* Цветной блок со скруглёнными краями -> общая часть для всех */
+    .d1, .d2, .d3 { 
+    display: block; font-size: 0; overflow: hidden; height: 1px;
+   }
+     .d2, .d3, .dialog-round div {
+    border: 2px solid #FFFFFF;                     	/* Параметры рамки */
+    border-top: none; border-bottom: none;        	/* Убираем границу сверху и снизу */
+    background: #4577E6;                          	/* Цвет фона блока */
+   }
+   .d1 { margin: 0 4px; background: #fff; }
+   .d2 { margin: 0 2px; border-width: 2px; }
+   .d3 { margin: 0 1px; height: 2px; }
+   .dialog-round div { padding: 5px 10px; }
+   
+     /*  Цветная рамка вокруг текста  */
+     DIV.outline {          
+    border: 5px solid #FFFFFF;
+    padding: 0 10px;              /* Параметры рамки */
+	background: #E1E1E1;          /* Цвет фона блока */
+   }
+   
+   /* Начало----------Цветной блок со скругёными краями синий */
+.roundcont {
+	width: 850px;
+	background-color: #DBE1ED;
+	color: #fff;
+}
+
+.roundcont p {
+	margin: 0 10px;
+}
+
+.roundtop { 
+	background: url(tr.png) no-repeat top right; 
+}
+
+.roundbottom {
+	background: url(br.png) no-repeat top right; 
+}
+
+img.corner {
+   width: 15px;
+   height: 15px;
+   border: none;
+   display: block !important;
+}
+       /* End----------Цветной блок со скругёными краями синий */
+	   
+       /* Начало----------Цветной блок со скругёными краями оранжевый */
+.roundcont_orange {
+	width: 550px;
+	background-color: #f90;
+	color: #fff;
+}
+
+.roundcont_orange p {
+	margin: 0 10px;
+}
+
+.roundtop_orange { 
+	background: url(tr.gif) no-repeat top right; /* Картинки в 1 каталоги со style.css */
+}
+
+.roundbottom_orange {
+	background: url(br.gif) no-repeat top right; 
+}
+
+img.corner_orange {
+   width: 15px;
+   height: 15px;
+   border: none;
+   display: block !important;
+}
+       /* End----------Цветной блок со скругёными краями оранжевый */
+
+/* End === Элементы украшения: цветные блоки ================  */  
+
+
+
+/* Начало ==============Текстовые стили====================== */
+.Site_Content {         /* Стиль основного текста сайта на всех страницах */
+	font-size: 17px;
+	color: #474747;     /* Цвет основного текста сайта */
+}
+.BlueBlock {           /* Стиль текста синего цветного скруглённого блока */
+     font-size: 17px;
+     color: #FFFFFF;
+ }
+.Red_h2 {          /* Красный заголовок h2 */
+	color: #AF0B16;
+	font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 11px;
+	margin-top: 0px;
+}
+.стиль1 {font-size: 14px}
+.стиль2 {font-size: 14}
+.стиль3 {font-size: 24px}
+.стиль5 {
+	color: #FFFFFF;
+	font-size: 16px;
+}
+.стиль6 {
+	font-size: 
+}
+.стиль7 {color: #FFFFFF}
+.стиль8 {
+	font-size: 18
+}
+.стиль9 {font-size: 15px}
+
+/* End ============= Текстовые стили ======================= */
+
+/* Начало ============= imagesize - Плавное увеличение картинки при наведении на неё курсором мыши ======================= */
+img.expando{
+border: none;
+vertical-align: bottom;
+}
+/* End ============= imagesize ======================= */
+
+
+
+
+
